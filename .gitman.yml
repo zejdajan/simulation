@@ -47,7 +47,7 @@ sources_locked:
       - git submodule update --init --recursive --depth 1
   - repo: https://github.com/zejdajan/mrs_simulation.git
     name: mrs_simulation
-    rev: 1ad123e263ca2d3de703f476b965042b599ff49a
+    rev: 505d07e7562b39a5a71b98d6d4848aa025839f9b
     type: git
     sparse_paths:
       -
