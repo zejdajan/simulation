@@ -12,3 +12,5 @@ if [[ $? -eq 0 ]]; then
   # start tmuxinator
   tmuxinator start -p ./session.yml
 fi
+
+

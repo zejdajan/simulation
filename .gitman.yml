@@ -36,7 +36,7 @@ sources:
 sources_locked:
   - repo: https://github.com/ctu-mrs/mrs_gazebo_common_resources.git
     name: mrs_gazebo_common_resources
-    rev: 7812c0032c3ab9ad25d3b0eeba9c8f34900bf317
+    rev: 3ae5f61b4c58581d2db3c931e5d5d203536a216f
     type: git
     sparse_paths:
       -
@@ -47,7 +47,9 @@ sources_locked:
       - git submodule update --init --recursive --depth 1
   - repo: https://github.com/zejdajan/mrs_simulation.git
     name: mrs_simulation
-    rev: 505d07e7562b39a5a71b98d6d4848aa025839f9b
+    rev: 9a08689987d917d01dc732fa942bea90c4fa97ab
+
+
     type: git
     sparse_paths:
       -
@@ -58,7 +60,8 @@ sources_locked:
       - git submodule update --init --recursive --depth 1
   - repo: https://github.com/zejdajan/px4_firmware.git
     name: px4_firmware
-    rev: 639a1ecbe9f022f0b6902dd8e8cb0267db4e31bf
+    rev: 9d04a0d8590101de1740f68265d1b528de7cbec8
+
     type: git
     sparse_paths:
       -
