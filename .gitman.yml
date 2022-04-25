@@ -22,7 +22,7 @@ sources:
         target: ros_packages/mrs_simulation
     scripts:
       - git submodule update --init --recursive --depth 1
-  - repo: https://github.com/ctu-mrs/px4_firmware
+  - repo: https://github.com/zejdajan/px4_firmware.git
     name: px4_firmware
     rev: 1.11.2
     type: git
@@ -56,9 +56,9 @@ sources_locked:
         target: ros_packages/mrs_simulation
     scripts:
       - git submodule update --init --recursive --depth 1
-  - repo: https://github.com/ctu-mrs/px4_firmware
+  - repo: https://github.com/zejdajan/px4_firmware.git
     name: px4_firmware
-    rev: 7c374335db9ae7479f7fe2587a8e64fb9f0df3d5
+    rev: 0524e8e12b39fe526c120f1cd1bfe92913734ba0
     type: git
     sparse_paths:
       -
