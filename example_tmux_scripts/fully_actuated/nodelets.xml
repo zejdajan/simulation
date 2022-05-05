@@ -1,0 +1,5 @@
+<library path="lib/libHectorMappingRos">
+  <class name="hector_mapping/HectorMappingRos" type="hector_mapping::HectorMappingRos" base_class_type="nodelet::Nodelet">
+    <description>HectorMappingRos nodelet</description>
+  </class>
+</library>
